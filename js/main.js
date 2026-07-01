@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const nav = document.querySelector('.nav');
   if (nav) {
     window.addEventListener('scroll', () => {
-      nav.style.boxShadow = window.scrollY > 50 ? '0 2px 20px rgba(0,0,0,0.1)' : 'none';
+      nav.style.boxShadow = window.scrollY > 50 ? '0 2px 20px rgba(0,0,0,0.4)' : 'none';
     });
   }
 
